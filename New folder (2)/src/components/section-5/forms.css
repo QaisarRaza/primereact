@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.formpic{
+    width: 600px;
+    height: 400px;
+}
+.formpic img{
+    width: 600px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+.formtext{
+    width: 600px;
+    height: auto;
+    padding: 30px 0px;
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+}
+.formtext h1{
+    font-size: 45px;
+    color: rgb(32, 27, 73);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.formtext p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:700px) 
+{
+    .formpic {
+        width: 400px;
+        height: 250px;
+    }
+    .formpic img{
+        width: 400px;
+        height: 250px;
+    }
+    .formtext {
+        width: 400px;
+        height: 250px;
+    }
+    .formtext h1{
+       font-size: 30px;
+    }
+}
+@media screen and (max-width:440px) 
+{
+    .formpic {
+        width: 300px;
+        height: 200px;
+    }
+    .formpic img{
+        width: 300px;
+        height: 200px;
+    }
+    .formtext {
+        width: 300px;
+        height: 200px;
+    }
+    .formtext h1{
+       font-size: 20px;
+    }
+}

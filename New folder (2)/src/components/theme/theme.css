@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.theme{
+    width: 100%;
+    height: auto;
+    background-color: #20272A;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.themetext{
+    width: 500px;
+    height: auto;
+    padding: 10px 30px;
+}
+.themetext h1{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.themetext p{
+    color: white;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.themetext button{
+    width: 100px ;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: turquoise;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.themepic{
+    width: 600px;
+    height: auto;
+    padding: 20px 0px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.themepic img{
+    width: 600px;
+    background-size: 100% 100%;
+    height: 250px;
+}
+@media screen and (max-width:655px)
+ { 
+     .themepic{
+         width: 300px;
+         height: 200px;
+     }
+    .themepic img{
+        width: 300px;
+        height: 200px;
+        margin-left: 0%;
+    }    
+}
+@media screen and (max-width:540px)
+ {
+    .themepic img{
+        width: 300px;
+        height: 200px;
+        margin-left: 0%;
+    }    
+}
+@media screen and (max-width:340px)
+ {
+    .themepic img{
+        width: 200px;
+        height: 150px;
+        margin-left: 0%;
+    }    
+}
+

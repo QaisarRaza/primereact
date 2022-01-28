@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.charts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.chartspic{
+    width: 600px;
+    height: 400px;
+}
+.chartspic img{
+    width: 600px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+.chartstext{
+    width: 600px;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.chartstext h1{
+    font-size: 45px;
+    color: rgb(32, 27, 73);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.chartstext p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:700px) 
+{
+    .chartspic {
+        width: 400px;
+        height: 250px;
+    }
+    .chartspic img{
+        width: 400px;
+        height: 250px;
+    }
+    .chartstext {
+        width: 400px;
+        height: 100px;
+    }
+    .chartstext h1{
+       font-size: 30px;
+    }
+}
+@media screen and (max-width:440px) 
+{
+    .chartspic {
+        width: 300px;
+        height: 200px;
+    }
+    .chartspic img{
+        width: 300px;
+        height: 200px;
+    }
+    .chartstext {
+        width: 300px;
+        height: 100px;
+    }
+    .chartstext h1{
+       font-size: 20px;
+    }
+}
